@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  height: 100vh;
+  background-color: rgba(137, 43, 226, 0.705);
+}
+.big {
+  background-color: yellow;
+  width: 70%;
+  height: 40vh;
+}
+.big .operators {
+  height: 100%;
+  gap: 1rem;
+}
+.first,
+.second {
+  text-align: center;
+  width: 16%;
+  height: 40%;
+  border: 3px solid rgb(255, 6, 6);
+}
+.plus,
+.teng {
+  font-size: 5rem;
+}
+input {
+  height: 40px;
+  width: 20%;
+  font-size: 1.8rem;
+}
+button {
+  height: 40px;
+  width: 10%;
+  background-color: red;
+  border: none;
+  color: wheat;
+  font-size: 1.5rem;
+}
